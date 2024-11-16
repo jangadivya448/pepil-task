@@ -1,0 +1,27 @@
+.card-container {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  .header {
+    display: flex;
+    align-items: center;
+    & > div {
+      flex: 1;
+    }
+    .thumbnail {
+      width: 100%;
+    }
+    .detail {
+      display: flex;
+      justify-content: space-between;
+      .detail-value {
+        color: green;
+      }
+    }
+  }
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+  }
+}

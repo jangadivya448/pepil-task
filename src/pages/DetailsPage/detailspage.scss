@@ -1,0 +1,35 @@
+.details-page {
+  padding: 1rem;
+  color: white;
+  .title {
+    text-align: center;
+    color: #fff;
+    margin: 1rem;
+  }
+  .basic-details {
+    padding: 1rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    color: black;
+    .field-wrap {
+      flex: 1;
+      max-width: 300px;
+    }
+  }
+  .detail {
+    display: flex;
+    justify-content: space-between;
+    .detail-value {
+      color: green;
+    }
+  }
+  .product-name {
+    font-size: 2rem 0;
+    margin: 1rem;
+  }
+  .product-desc {
+    font-size: 1.5rem 0;
+    margin: 1rem;
+  }
+}

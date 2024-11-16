@@ -1,0 +1,13 @@
+.homepage {
+  padding: 1rem;
+  .title {
+    text-align: center;
+    color: #fff;
+    margin: 1rem;
+  }
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 equal columns */
+    gap: 1rem;
+  }
+}
